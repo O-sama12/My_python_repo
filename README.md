@@ -1,44 +1,21 @@
 
-# Creating a clock using Tkinter
+# Snake, Water, Gun game
 
-A brief description of Creating a clock using Tkinter. 
+Hi everyone
 
-Hi all, My name is Osama Abdul Qader. In this python file you'll get 
-thecode of "How we can create a clock using Tkinter?".
+In my new project I've developed a program of Snake, Water, Gun game. I know that you've played this game in your  childhood (This game is especially played by the kids living in India).
+Well if you get a nostalgia about this game then It doesn't make sense to click the link below otherwise you can click the below given link to get an Idea about this game
 
+[Youtube Link] (https://www.youtube.com/watch?v=ZCOYcxihQsA&ab_channel=HelloFriends)
 
-Using Tkinter we can build a desktop application of any OS (short for Operating System) it may be Linux, Mac, Solaris or Windows etc. 
+Sorry, the video which I've given to you in first youtube link is in Hindi Language only Hindi or Urdu Speakers can understand the video
 
-Now we can't install Tkinter (using pip command) because Tkinter is a built in library that comes with the installation of python in the machine.
+To understand about the program which I've written please click the link I've given below 
 
- 
-## Brief explanation of the code
+PS: The below given youtube link is in english language, you can clearly understand.
 
-The first line of code creates a new instance of Tkinter object called root which represents the entire application window.
- 
- Next, title("Clock") sets what text appears at top center of screen as well as changing its background color from white to black (the default).
+[Youtube Link] (https://www.youtube.com/watch?v=EyEqWFvLDT8&list=PLK8cqdr55Tst_CKTza5BU8tk7JKWYFc3g&ab_channel=ProgrammingWithHarry)
 
- Then pack(anchor="center") places all widgets inside this container into their respective positions relative to each other using anchor values like "top", "left", etc., so they are centered horizontally within their parent widget or container.
-
- Next comes def time(), where string = strftime('%H:%M:%S %p') converts seconds into hours, minutes and seconds using strftime().
-
- This allows us to create labels that show different times depending on how long we want them displayed for without having to constantly change
-
- The code will create a label with the text "Clock" and a red background.
-
- The label will be placed in the center of the screen and after 1000 milliseconds, it will change to say "Time".
-
- The mainloop() function is what keeps everything running.
- 
- The code starts by creating a Tkinter window called "Clock".
-
-  Next, the code creates a function called time that will print out the current time on the label.
-
-  The label is then created and given an ID of "label" with font size 80 and background color black.
-
-  After 1000 milliseconds, it prints out the time again.
-
-  Finally, mainloop() is executed which starts up ttk's event loop to wait for events to happen in this window.
-  
-
- 
+Thank you very much for reading my readme file now you can head to the code:-)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
